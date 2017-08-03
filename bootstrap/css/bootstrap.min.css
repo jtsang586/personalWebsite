@@ -10,6 +10,7 @@ body {
   font-family: quicksand, sans-serif;
 }
 
+
 h1 {
   font-size: 50px;
   text-align: center;
@@ -46,6 +47,15 @@ p {
 br {
   display: none;
 }
+
+#nav {
+  height: 20px;
+  background-color: #247BA0;
+  color: #FFF;
+  width: 100vw;
+}
+
+
 /*Second side bar*/
 #info {
   background-color: #70C1B3;
