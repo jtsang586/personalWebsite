@@ -24,6 +24,7 @@ ul {
   background-color : #FFE066;
   color: black;
   padding-bottom: 100%;
+  font font-style: none;
 }
 
 img {
