@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>My Website</title>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 </head>
 <body>
@@ -15,39 +16,86 @@
         <li>Project 3</li>
         <li>About Me</li>
         <li>Contact Details</li>
-      </ul>
     </section>
     <main class="col-md-9">
       <h2>Deep Space Mine</h2>
       <div class="embed-responsive embed-responsive-16by9">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/IANeffbCrLA" frameborder="0" allowfullscreen></iframe>
       </div>
-      <section>
+      <!-- <section>
         <img class="img-responsive" src="images/1.jpeg">
         <img src="">
         <img src="">
-      </section>
+      </section> -->
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="images/2.jpeg" alt="1">
+          </div>
+
+          <div class="item">
+            <img src="images/1.jpeg" alt="2">
+          </div>
+
+          <div class="item">
+            <img src="images/3.jpeg" alt="3">
+          </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      
     </main>
   </div>
   <footer>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <div class="container">
+      <section class="col-md-3" id="info">
+        <h4>Role: Programmer</h4>
+        <h4>For: Dare to be Digital 2015</h4>
+        <h4>Date: 2015</h4>
+        <h4>URL: www.deepspacemine.co.uk</h4>
+      </section>
+      <section class="col-md-9">
+        <p>
+          Deep Space Mine is a game made by a team called Hello Sausage. The team consisted of 2 programmers, 4 artists and 1 sound designer. 
+        </p>
+        <p>
+          The game was developed specifically to be entered for Dare to be Digital. The original concept of the game has changed significantly over the development process. The game shown in ProtoPlay Dundee 2015 was developed in roughly 9 weeks times.
+        </p>
+        <p>
+          The game is a 1v1 simultaneous turn based strategy game where the objective is to drill planets for minerals and use those minerals to buy/sell other minerals and buy more drills.
+        </p>
+        <p>
+          The market phase and UI was developed by myself as well as the fluctuating stock market system where the prices of the minerals would fluctuate based on the actions of the two players.
+        </p>
+        <p>
+          The drilling phase is where the players mine planets by dropping probes in various locations on the planet. Each game consists of 9 randomly generated planets each with unique characteristics. 
+          First player to own 5 planets wins.
+        </p>
+        <p>
+          A companion game was also made during this time which reused most of the discarded assets to make a arcade game more suitable for the younger audience in Protoplay.
+        </p>
+        <p>
+          The game was 1 out of 16 chosen by Dare to be showcased at Protoplay Dundee. Unfortunately the game was not nominated for a BAFTA but the response by the public has be extremely positive.
+        </p>
+      </section>
+    </div>
   </footer>
 </body>
 </html>
