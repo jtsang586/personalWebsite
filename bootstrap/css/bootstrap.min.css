@@ -7,6 +7,7 @@
 body {
   background-color: #50514F;
   color: #fff;
+  font-family: quicksand;
 }
 
 h1 {
@@ -18,22 +19,37 @@ h1 {
 
 h2 {
   text-align: center;
+  font-weight: bold;
+  font-size: 60px
 }
 
 ul {
   background-color : #FFE066;
   color: black;
   padding-bottom: 100%;
-  font font-style: none;
+  font-size: 18px;
+  text-align: center;
+  height: 100vh;
+
 }
 
-img {
-  width: 50em;
-  height: 30em;
+li {
+  padding-bottom: 10px;
+}
+
+p {
+  font-family: roboto;
+  font-size: 18px;
+  padding-top: 5px;
 }
 
 #info {
   background-color: #70C1B3;
+  display: inline-block;
+}
+
+#blue {
+  background-color: #247BA0;
 }
 
 @media screen and (max-width: 992px) 
