@@ -22,7 +22,7 @@ h2 {
   font-weight: bold;
   font-size: 60px
 }
-
+/*Side navigation bar*/
 ul {
   background-color : #FFE066;
   color: black;
@@ -30,7 +30,6 @@ ul {
   font-size: 18px;
   text-align: center;
   height: 100vh;
-
 }
 
 li {
@@ -42,7 +41,7 @@ p {
   font-size: 18px;
   padding-top: 5px;
 }
-
+/*Second side bar*/
 #info {
   background-color: #70C1B3;
   display: inline-block;
@@ -51,7 +50,7 @@ p {
 #blue {
   background-color: #247BA0;
 }
-
+/*Remove bars when screen decreases*/
 @media screen and (max-width: 992px) 
 {
   ul {
