@@ -7,7 +7,7 @@
  
  1. Create wireframe. (trainer approved) 
  2. Create new GitHub repository.
- 3. Find [colour](https://coolors.co/50514f-f25f5c-ffe066-247ba0-70c1b3) scheme and [font](https://fonts.googleapis.com/css?family=Quicksand|Roboto" rel="stylesheet).
+ 3. Find [colour](https://coolors.co/50514f-f25f5c-ffe066-247ba0-70c1b3) scheme and [font](https://fonts.googleapis.com/css?family=Quicksand|Roboto" rel="stylesheet)
  4. Install Bootstrap onto the new repository.
  5. Link custom stylesheet.
  6. Build HTML template.
