@@ -20,9 +20,9 @@
  
 ## The Wireframe
  
-![Desktop Framework] (images/Frame1.jpg)
+![Desktop Framework](images/Frame1.jpg)
 Desktop wireframe
-![Mobile Framework] (images/Frame2.jpg)
+![Mobile Framework](images/Frame2.jpg)
 Mobile wireframe
  
 ## The Website
