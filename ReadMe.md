@@ -1,6 +1,5 @@
-#Read Me
-
-##Personal Website
+# Read Me
+## Personal Website
 
  The task for this project was to create a personal website using the bootstrap framework as well as putting into use newly learnt HTML and CSS.
  
@@ -16,22 +15,22 @@
 
  **Deadline 13:30 3rd August**
  
-##The Inspiration
+## The Inspiration
  The objective for creating this website was to create **portfolio** which could showcase some of the projects I have completed in the past. The aim is to create a site which was simple but still containing enough information to showcase everything about the project.
  
-##The Wireframe
+## The Wireframe
  
 ![Desktop Framework] (images/Frame1.jpg)
 Desktop wireframe
 ![Mobile Framework] (images/Frame2.jpg)
 Mobile wireframe
  
-##The Website
+## The Website
  
-###Header
+### Header
 The header is coloured in blue and contains the name of the website. It also has a width which covers the entire website.
  
-###The Main
+### The Main
  
 On the left of the page is the main **navigation bar** which covers the height of the **main** section of the website. The first section of the main is a video frame containing a video of the project. 
  
@@ -46,7 +45,7 @@ The middle section contains a selection of pictures organised using the default 
 ```
 An additional link to javascript and jquery was required for the carousel to work.
 
-###Second Main
+### Second Main
  
  The second main contains the specific details regarding the project. The left part of contains bitesize information which is highlighted using **block qoutes** and **background-color**
  
@@ -58,7 +57,7 @@ An additional link to javascript and jquery was required for the carousel to wor
  ```
  The main paragraphs contain most of the information regarding the project.
  
-###Responsiveness
+### Responsiveness
 The main responsiveness is handled by **Bootstrap.** Some additional CSS code is added to remove the left bars when the screen **width** is reduced bellow **992px**.
  
  ```css
